@@ -115,5 +115,3 @@ StorageBB:
                 rotation: (0, 0, -90)
     logicCode: Memory.Server.StorageBB
     clientCode: Memory.Client.StorageBB
-    #placingRules:
-    #    gridPlacingDimensions: (6, 6)
