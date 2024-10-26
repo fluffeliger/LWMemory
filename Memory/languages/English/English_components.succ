@@ -1,0 +1,3 @@
+Memory.StorageBB : "BYTE x BYTE"
+
+ComponentCategory.Storage : "Storage"

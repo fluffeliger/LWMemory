@@ -1,0 +1,119 @@
+###########
+# Storage #
+###########
+
+StorageBB:
+    column: "Logic"
+    category: "Storage"
+    prefab:
+        blocks:
+            -
+                scale: (5, 1, 6)
+                position: (0, 0, 0)
+                color: 1A1A1A
+        inputs:
+            - # Data Bit 0
+                position: (-2.5, 0.5, -2.3)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 1
+                position: (-2.5, 0.5, -1.643)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 2
+                position: (-2.5, 0.5, -0.986)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 3
+                position: (-2.5, 0.5, -0.329)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 4
+                position: (-2.5, 0.5, 0.329)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 5
+                position: (-2.5, 0.5, 0.986)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 6
+                position: (-2.5, 0.5, 1.643)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Data Bit 7
+                position: (-2.5, 0.5, 2.3)
+                rotation: (0, 0, 90)
+                length: 0.62
+            - # Address Bit 0
+                position: (-2.3, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 1
+                position: (-1.643, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 2
+                position: (-0.986, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 3
+                position: (-0.329, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 4
+                position: (0.329, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 5
+                position: (0.986, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 6
+                position: (1.643, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Address Bit 7
+                position: (2.3, 0.5, 3)
+                rotation: (90, 0, 0)
+                length: 0.62
+            - # Read
+                position: (-2.3, 0.5, -3)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            - # Write
+                position: (-1.643, 0.5, -3)
+                rotation: (-90, 0, 0)
+                length: 0.62
+            - # Erase
+                position: (-0.986, 0.5, -3)
+                rotation: (-90, 0, 0)
+                length: 0.62
+        outputs:
+            - # Data Bit 0
+                position: (2.5, 0.5, -2.3)
+                rotation: (0, 0, -90)
+            - # Data Bit 1
+                position: (2.5, 0.5, -1.643)
+                rotation: (0, 0, -90)
+            - # Data Bit 2
+                position: (2.5, 0.5, -0.986)
+                rotation: (0, 0, -90)
+            - # Data Bit 3
+                position: (2.5, 0.5, -0.329)
+                rotation: (0, 0, -90)
+            - # Data Bit 4
+                position: (2.5, 0.5, 0.329)
+                rotation: (0, 0, -90)
+            - # Data Bit 5
+                position: (2.5, 0.5, 0.986)
+                rotation: (0, 0, -90)
+            - # Data Bit 6
+                position: (2.5, 0.5, 1.643)
+                rotation: (0, 0, -90)
+            - # Data Bit 7
+                position: (2.5, 0.5, 2.3)
+                rotation: (0, 0, -90)
+    logicCode: Memory.Server.StorageBB
+    clientCode: Memory.Client.StorageBB
+    #placingRules:
+    #    gridPlacingDimensions: (6, 6)
