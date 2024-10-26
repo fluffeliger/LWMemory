@@ -8,6 +8,10 @@ Currently there is only 1 Storage with the following specs:
 | Address Size | Byte |
 | Data Size | Byte |
 
+This is the pinout for this model
+
+![Pinout Storage BB](pinout_bb.png "Pinout Storage BxB")
+
 Im planning to add more but for now im too lazy
 
 ## Installing this Mod
