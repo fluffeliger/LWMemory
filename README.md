@@ -18,4 +18,4 @@ Im planning to add more but for now im too lazy
 To install mods, just drag and drop the `Memory` folder inside your `/path/to/LogicWorld/GameData/` folder and you are ready to enjoy the mod!
 
 ## Other Mods
-You can see my other creations [here](https://github.com/fluffeliger/LogicworldMods).
+You can see my other creations [here](https://github.com/fluffeliger/Logicworld-Mods).
