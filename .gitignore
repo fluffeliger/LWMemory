@@ -5,8 +5,8 @@ obj/*
 obj
 debug/*
 debug
-.csproj
-.sln
+*.csproj
+*.sln
 
 # Prerequisites
 *.d
